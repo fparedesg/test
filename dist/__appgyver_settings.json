@@ -1,0 +1,39 @@
+{
+  "preloads": [
+    {
+      "id": "family",
+      "location": "http://localhost/app/ketchup/family.html"
+    },
+    {
+      "id": "friends",
+      "location": "http://localhost/app/ketchup/friends.html"
+    },
+    {
+      "id": "coworkers",
+      "location": "http://localhost/app/ketchup/coworkers.html"
+    }
+  ],
+  "tabs": [
+    {
+      "position": 0,
+      "id": "family",
+      "title": "Family",
+      "target_url": "http://localhost/app/ketchup/family.html"
+    },
+    {
+      "position": 1,
+      "id": "friends",
+      "title": "Friends",
+      "target_url": "http://localhost/app/ketchup/friends.html"
+    },
+    {
+      "position": 2,
+      "id": "coworkers",
+      "title": "Coworkers",
+      "target_url": "http://localhost/app/ketchup/coworkers.html"
+    }
+  ],
+  "configuration": {
+    "extra_response_headers": {}
+  }
+}
